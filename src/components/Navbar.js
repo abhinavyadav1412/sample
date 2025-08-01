@@ -3,7 +3,7 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">WEEM</div>
+      <div className="logo">GRH</div>
       <ul className="nav-links">
         <li>Home</li>
         <li>About Us</li>
