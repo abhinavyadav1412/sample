@@ -8,7 +8,7 @@ function Hero() {
         Your browser does not support the video tag.
       </video>
       <div className="hero-overlay">
-        <h1>Welcome to GRH</h1>
+        <h1 className="text-7xl font-bold text-white">Welcome to GRH</h1>
       </div>
     </div>
   );
