@@ -1,14 +1,15 @@
-import './Hero.css';
+import heroImage from "../assets/hero-image.jpg";
 
 function Hero() {
   return (
-    <div className="hero">
-      <video autoPlay loop muted className="hero-video">
-        <source src="/video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <div className="hero-overlay">
-        <h1 className="text-7xl font-bold text-white">Welcome to GRH</h1>
+    <div
+      className="relative h-[100vh] bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${heroImage})` }}
+    >
+      <div className="absolute inset-0 bg-black/20 flex justify-center items-center">
+        <h1 className="text-6xl md:text-8xl font-bold text-white text-center">
+          Welcome to GRH
+        </h1>
       </div>
     </div>
   );
