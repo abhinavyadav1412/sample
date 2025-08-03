@@ -50,7 +50,7 @@ const AboutUs = () => {
     <div className="bg-gray-100 py-12 px-6 md:px-20">
       {/* Section Header */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-red-700 inline-block border-b-4 border-red-700 pb-1">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#023430] inline-block border-b-4 border-[#023430] pb-1">
           ABOUT US
         </h2>
       </div>
@@ -66,8 +66,8 @@ const AboutUs = () => {
           />
         </div>
 
-        {/* Right: Red background */}
-        <div className="md:w-1/2 w-full bg-red-700 text-white rounded-lg shadow-xl flex flex-col">
+        {/* Right: Green background */}
+        <div className="md:w-1/2 w-full bg-[#023430] text-white rounded-lg shadow-xl flex flex-col">
           <div className="p-8 py-12">
             <h3 className="text-4xl font-bold border-b-4 border-white inline-block pb-1 mb-6">
               ABOUT US
@@ -83,10 +83,10 @@ const AboutUs = () => {
               Mission: SAND SHINING THE WORLD. LIVE A BEAUTIFUL LIFE.
             </p>
             <div className="flex gap-4">
-              <button className="border border-white px-6 py-2 hover:bg-white hover:text-red-700 transition-all duration-300 cursor-pointer">
+              <button className="border border-white px-6 py-2 hover:bg-white hover:text-[#023430] transition-all duration-300 cursor-pointer">
                 Read more
               </button>
-              <button className="bg-white text-red-700 px-6 py-2 hover:bg-red-800 hover:text-white transition-all cursor-pointer duration-300">
+              <button className="bg-white text-[#023430] px-6 py-2 hover:bg-[#023430] hover:text-white transition-all cursor-pointer duration-300">
                 Chat Now
               </button>
             </div>
@@ -115,31 +115,31 @@ const AboutUs = () => {
 
       {/* Contact Cards with Hover Animation */}
       <div className="grid grid-cols-1 md:grid-cols-5 gap-4 text-center">
-        <div className="md:col-span-2 flex flex-col justify-center items-center bg-red-700 text-white p-6 rounded-lg shadow-md">
+        <div className="md:col-span-2 flex flex-col justify-center items-center bg-[#023430] text-white p-6 rounded-lg shadow-md">
           <h3 className="text-xl font-bold mb-2 leading-tight text-center">
             WE PROVIDE
             THE BEST
             SERVICE!
           </h3>
           <p className="mb-4 text-sm">You can contact us in various ways</p>
-          <button className="border border-white text-white px-4 py-2 hover:bg-white hover:text-red-700 transition cursor-pointer">
+          <button className="border border-white text-white px-4 py-2 hover:bg-white hover:text-[#023430] transition cursor-pointer">
             Chat Now
           </button>
         </div>
 
         {[
           {
-            icon: <FaPhone className="text-4xl text-red-600 mb-4" />,
+            icon: <FaPhone className="text-4xl text-[#023430] mb-4" />,
             title: "Tel",
             value: "86-0751-5363399",
           },
           {
-            icon: <FaEnvelope className="text-4xl text-red-600 mb-4" />,
+            icon: <FaEnvelope className="text-4xl text-[#023430] mb-4" />,
             title: "Email",
             value: "jack.w@weem-abrasives.com",
           },
           {
-            icon: <FaWhatsapp className="text-4xl text-red-600 mb-4" />,
+            icon: <FaWhatsapp className="text-4xl text-[#023430] mb-4" />,
             title: "WhatsApp",
             value: "+8613814838149",
           },
