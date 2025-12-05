@@ -131,17 +131,17 @@ const AboutUs = () => {
           {
             icon: <FaPhone className="text-4xl text-[#023430] mb-4" />,
             title: "Tel",
-            value: "86-0751-5363399",
+            value: " 9915758102",
           },
           {
             icon: <FaEnvelope className="text-4xl text-[#023430] mb-4" />,
             title: "Email",
-            value: "jack.w@weem-abrasives.com",
+            value: "info@grhglobal.com ",
           },
           {
             icon: <FaWhatsapp className="text-4xl text-[#023430] mb-4" />,
             title: "WhatsApp",
-            value: "+8613814838149",
+            value: "+9915758102",
           },
         ].map((contact, idx) => (
           <motion.div

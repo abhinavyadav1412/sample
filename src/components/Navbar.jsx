@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <nav className="flex justify-between items-center px-6 md:px-12 py-4 bg-white shadow-md sticky top-0 z-50">
       {/* Logo */}
-      <div className="text-[#023430] text-3xl font-bold">GRH</div>
+      <div className="text-[#023430] text-3xl font-bold">GRH Global</div><div class></div>
 
       {/* Navigation Links */}
       <ul className="flex gap-6 list-none font-semibold text-lg">

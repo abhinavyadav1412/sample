@@ -33,21 +33,30 @@ import {
               <li className="flex items-start gap-4">
                 <FaMapMarkerAlt className="text-[#023430] mt-1 text-lg" />
                 <div>
-                  <span className="font-semibold">Address</span>
+                  <span className="font-semibold">REGISTERED OFFICE -
+
+                    33-C, CORAL FLOORS,
+                    AIPL DREAMCITY ,CANAL ROAD , SOUTH CITY
+                    LUDHIANA-141102
+                    <br></br>
+                    
+                    INVENTORY MANAGEMENT CENTER - 
+                    GRH GLOBAL PRIVATE LIMITED Plot No.31, WESTEND AVENUE, JHANDE,LUDHIANA
+                    </span>
                 </div>
               </li>
               <li className="flex items-start gap-4">
                 <FaPhoneAlt className="text-[#023430] mt-1 text-lg" />
                 <div>
                   <span className="font-semibold">Tel</span><br />
-                  86-0751-5363399
+                   9915758102
                 </div>
               </li>
               <li className="flex items-start gap-4">
                 <FaEnvelope className="text-[#023430] mt-1 text-lg" />
                 <div>
                   <span className="font-semibold">E-mail</span><br />
-                  jack.w@weem-abrasives.com
+                 info@grhglobal.com 
                 </div>
               </li>
             </ul>
@@ -86,10 +95,7 @@ import {
         </div>
   
         {/* Bottom */}
-        <div className="text-center text-sm text-gray-500 border-t pt-6">
-          Privacy Policy | Sitemap | China Good Quality Abrasive Cloth Rolls Supplier. <br />
-          Copyright © 2013–2025 <span className="font-semibold text-[#023430]">WEEM Abrasives</span>. All Rights Reserved.
-        </div>
+    
       </footer>
     );
   }
